@@ -90,7 +90,7 @@ class TodoController extends Controller
 
         } else {
             $resp['status'] = false;
-            $resp['message'] = 'Failed to update Todo';
+            $resp['message'] = 'Failed to update TodoList';
         }
 
         return response()->json($resp);
